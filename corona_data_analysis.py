@@ -9,5 +9,7 @@ print(corona_data.loc['2020-03-03','누적검사'])
 # 2020-03-03 코로나 사망자 수
 print('사망자는 {}명 입니다.'.format(corona_data.loc['2020-03-03','사망자']))
 
+print(corona_data.loc['2020-03-03','확진자'])
+
 
 print(corona_data)
