@@ -11,5 +11,7 @@ print('사망자는 {}명 입니다.'.format(corona_data.loc['2020-03-03','사�
 
 print(corona_data.loc['2020-03-03','확진자'])
 
+# 2020 3월 코로나 확진자 수
+print(corona_data.loc['2020-03-01:2020-03-31','확진자'])
 
 print(corona_data)
